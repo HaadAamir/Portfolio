@@ -1,0 +1,40 @@
+/*setting up root so colors can be easily modified in the future*/
+:root{
+    --background-color: #0d0d0d;
+    --text-color: #f0f0f0;
+    --div-color: #008000;
+}
+
+/*styling all elements*/
+
+*{
+    padding: 0;
+    margin: 0.7rem;
+    text-align: center;
+    width: 100;
+}
+
+/*styling the body*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/*styling the div*/
+
+div{
+    width: 90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #008000;
+}
+
+.palindrome-result{
+    width: 90vw;
+    display: inline;
+    overflow-wrap: anywhere;
+}
